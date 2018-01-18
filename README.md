@@ -118,6 +118,25 @@ sudo jq '.' /var/lib/docker/image/aufs/imagedb/content/sha256/f3c42e7faaecadb2ce
 ![capas](images/capas.png)
 
 ## Exercise 8
+
+```
+sudo docker volume create benchmark
+sudo docker pull fedora
+sudo docker run -it --rm -v benchmark:/app fedora /bin/bash
+```
+
+Inside volume we type 
+```
+vi app/bm.sh
+```
+
+And then inside the file 
+```
+ls -R / | wc
+```
+
+![volume](images/volume.png)
+
 ## Exercise 9
 ## Exercise 10
 ## Exercise 11
