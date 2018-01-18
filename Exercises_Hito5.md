@@ -17,6 +17,7 @@ lxc-checkconfig
 ```
 lxc-info --version
 ```
+
 ![version](images/lxc_version.png) 
 
 ## Exercise 2
